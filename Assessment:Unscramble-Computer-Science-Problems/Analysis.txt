@@ -1,0 +1,29 @@
+Abhishek Raut - abhishekraut.com - 04/20/2020
+
+Project 1: Unscramble Computer Science Problems - Run time analysis
+
+Task 0
+Time Complexity: O(1) - Constant time
+Reason: Operations take constant time to execute irrespective of input
+
+
+Task 1
+Time Complexity: O(n + m) - Linear time
+Reason: Traversal through the lists of records of calls and texts
+
+
+Task 2
+Time Complexity: O(n) - Linear time
+Reason: Traversal through the list of records of calls (at max)
+
+
+Task 3
+Time Complexity: O(nlog(n)) - Log-linear time
+Reason: Traversal through the list of records of calls and built in sort function: (n + nlog(n)).
+             nlog(n) gets precedence
+
+
+Task 4
+Time Complexity: O( (n+m) + n log(n)) - Log-linear time
+Reason: Traversal through the lists of records of calls and texts and built in sort function.
+             Precedence can't be determined till further investigation.
